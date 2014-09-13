@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Help</class>
+ <widget class="QDialog" name="Help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Help</string>
+  </property>
+  <property name="whatsThis">
+   <string/>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>270</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>-20</y>
+     <width>391</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;
+	&lt;head/&gt;
+	&lt;body&gt;
+		&lt;p style=&quot;line-height: 50%&quot;&gt;
+			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Flip V: &lt;/span&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;Flip the V texture coordinates.&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;p style=&quot;line-height: 50%&quot;&gt;
+			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Pack colors: &lt;/span&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;Pack vertex colors to one float.&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;p style=&quot;line-height: 50%&quot;&gt;
+			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Show Log: &lt;/span&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;Show progress information&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;p style=&quot;line-height: 70%&quot;&gt;
+			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Max Bones: &lt;/span&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;The maximum amount of bones a nodepart&lt;br&gt;can contain.&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;p style=&quot;line-height: 70%&quot;&gt;
+			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Max Weights: &lt;/span&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;The maximum amount of bone weights&lt;br&gt; per vertex.&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;p style=&quot;line-height: 70%&quot;&gt;
+			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Max Vertices: &lt;/span&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;The maximum amount of vertices or&lt;br&gt; indices a mesh may contain.&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;p style=&quot;line-height: 50%&quot;&gt;
+			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;File Type: &lt;/span&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;Set the type of the output file to.&lt;/span&gt;
+		&lt;/p&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
