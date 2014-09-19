@@ -8,6 +8,7 @@ For now it only works on windows.
 
 In progress:
   Convert multiple files. -Done
+  
   Make it cross-platform.
   
   UPDATE:
