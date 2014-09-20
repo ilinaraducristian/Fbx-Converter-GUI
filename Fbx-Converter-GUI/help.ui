@@ -25,6 +25,11 @@
      <height>23</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+    </font>
+   </property>
    <property name="text">
     <string>Close</string>
    </property>
@@ -35,8 +40,13 @@
      <x>10</x>
      <y>-20</y>
      <width>391</width>
-     <height>231</height>
+     <height>281</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+    </font>
    </property>
    <property name="text">
     <string>&lt;html&gt;
@@ -54,21 +64,37 @@
 			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Show Log: &lt;/span&gt;
 			&lt;span style=&quot; font-size:12pt&quot;&gt;Show progress information&lt;/span&gt;
 		&lt;/p&gt;
-		&lt;p style=&quot;line-height: 70%&quot;&gt;
+		&lt;p style=&quot;line-height: 30%&quot;&gt;
 			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Max Bones: &lt;/span&gt;
-			&lt;span style=&quot; font-size:12pt&quot;&gt;The maximum amount of bones a nodepart&lt;br&gt;can contain.&lt;/span&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;The maximum amount of bones a nodepart&lt;/span&gt;
 		&lt;/p&gt;
-		&lt;p style=&quot;line-height: 70%&quot;&gt;
+		&lt;p style=&quot;line-height: 50%&quot;&gt;
+			&lt;span style=&quot;font-size:12pt&quot;&gt;can contain.&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;p style=&quot;line-height: 30%&quot;&gt;
 			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Max Weights: &lt;/span&gt;
-			&lt;span style=&quot; font-size:12pt&quot;&gt;The maximum amount of bone weights&lt;br&gt; per vertex.&lt;/span&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;The maximum amount of bone weights&lt;/span&gt;
 		&lt;/p&gt;
-		&lt;p style=&quot;line-height: 70%&quot;&gt;
+		&lt;p style=&quot;line-height: 50%&quot;&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt; per vertex.&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;p style=&quot;line-height: 30%&quot;&gt;
 			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Max Vertices: &lt;/span&gt;
-			&lt;span style=&quot; font-size:12pt&quot;&gt;The maximum amount of vertices or&lt;br&gt; indices a mesh may contain.&lt;/span&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;The maximum amount of vertices or&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;p style=&quot;line-height: 50%&quot;&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;indices a mesh may contain.&lt;/span&gt;
 		&lt;/p&gt;
 		&lt;p style=&quot;line-height: 50%&quot;&gt;
 			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;File Type: &lt;/span&gt;
 			&lt;span style=&quot; font-size:12pt&quot;&gt;Set the type of the output file to.&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;p style=&quot;line-height: 50%&quot;&gt;
+			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Filename: &lt;/span&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;If empty the filename will be the same, but&lt;/span&gt;
+		&lt;/p&gt;
+		&lt;p style=&quot;line-height: 30%&quot;&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;different extension.&lt;/span&gt;
 		&lt;/p&gt;
 	&lt;/body&gt;
 &lt;/html&gt;</string>

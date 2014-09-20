@@ -2,9 +2,10 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include <QFileInfo>
-#include <QFile>
-#include <QDir>
+#include <output.h>
+#include <multiplefiles.h>
+#include <about.h>
+#include <help.h>
 
 namespace Ui {
 class MainWindow;
@@ -19,34 +20,29 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushBBrowse_clicked();
+    void on_browse0_clicked();
 
-    void on_pushBBrowse_2_clicked();
+    void on_browse1_clicked();
 
-    void on_pushBConvert_clicked();
+    void on_convert_clicked();
 
-    void on_lineEInputPath_textChanged(const QString &arg1);
+    void on_pushButton_clicked();
 
-    void on_lineEOutputDirectory_textChanged(const QString &arg1);
-
-    void on_comboBFileType_currentTextChanged(const QString &arg1);
+    void on_actionExit_triggered();
 
     void on_actionAbout_triggered();
 
     void on_actionHelp_triggered();
-
-    void on_pushButton_clicked();
 
 signals:
     void sendData(QByteArray);
 
 private:
     Ui::MainWindow *ui;
-    bool proces=false;
-    QFileInfo fi;
-    QFile file;
-    QDir dir;
-    QString fileExtension = "g3db";
+    Output *output;
+    MultipleFiles *mfiles;
+    About *about;
+    Help *help;
 };
 
 #endif // MAINWINDOW_H

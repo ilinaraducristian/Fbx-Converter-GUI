@@ -22,6 +22,11 @@
      <height>31</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+    </font>
+   </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Qt GUI Made by &lt;/span&gt;&lt;span style=&quot; font-size:18pt; color:#ff0004;&quot;&gt;Reydw&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
@@ -34,6 +39,11 @@
      <width>371</width>
      <height>81</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+    </font>
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;Fbx conversion program made by &lt;br&gt;https://github.com/libgdx/fbx-conv&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -60,6 +70,11 @@
      <width>301</width>
      <height>31</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+    </font>
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt;&quot;&gt;email: &lt;/span&gt;&lt;span style=&quot; font-size:18pt; text-decoration: underline;&quot;&gt;oraclle98@gmail.com&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
