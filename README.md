@@ -18,7 +18,7 @@ Download section:
     Windows -> http://goo.gl/iC0aFz
     Linux   -> http://goo.gl/S1Rn43 (Tested on Ubuntu)
 
-Contribuitors
+Contributors
 =============
 
 xeoshow - Tester
