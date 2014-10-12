@@ -2,7 +2,7 @@
 #include "ui_help.h"
 
 Help::Help(QWidget *parent) :
-    QDialog(parent),
+    QWidget(parent),
     ui(new Ui::Help)
 {
     ui->setupUi(this);
@@ -15,5 +15,5 @@ Help::~Help()
 
 void Help::on_pushButton_clicked()
 {
-    this->close();
+    this->hide();
 }

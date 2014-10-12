@@ -1,13 +1,13 @@
 #ifndef HELP_H
 #define HELP_H
 
-#include <QDialog>
+#include <QWidget>
 
 namespace Ui {
 class Help;
 }
 
-class Help : public QDialog
+class Help : public QWidget
 {
     Q_OBJECT
 

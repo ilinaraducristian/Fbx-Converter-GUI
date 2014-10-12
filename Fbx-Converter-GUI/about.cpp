@@ -2,7 +2,7 @@
 #include "ui_about.h"
 
 About::About(QWidget *parent) :
-    QDialog(parent),
+    QWidget(parent),
     ui(new Ui::About)
 {
     ui->setupUi(this);
@@ -15,5 +15,5 @@ About::~About()
 
 void About::on_pushButton_clicked()
 {
-    if(this->isVisible())this->hide();
+    this->hide();
 }

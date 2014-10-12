@@ -2,6 +2,7 @@
 #define OUTPUT_H
 
 #include <QWidget>
+#include <QTextStream>
 
 namespace Ui {
 class Output;
@@ -16,7 +17,7 @@ public:
     ~Output();
 
 public slots:
-    void receiveData(QByteArray);
+    void receiveOutput(QString output, QByteArray array);
 
 private:
     Ui::Output *ui;

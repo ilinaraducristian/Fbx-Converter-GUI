@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>Help</class>
- <widget class="QDialog" name="Help">
+ <widget class="QWidget" name="Help">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,10 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Help</string>
-  </property>
-  <property name="whatsThis">
-   <string/>
+   <string>Form</string>
   </property>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
@@ -57,12 +54,12 @@
 			&lt;span style=&quot; font-size:12pt&quot;&gt;Flip the V texture coordinates.&lt;/span&gt;
 		&lt;/p&gt;
 		&lt;p style=&quot;line-height: 50%&quot;&gt;
-			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Pack colors: &lt;/span&gt;
+			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Pack C: &lt;/span&gt;
 			&lt;span style=&quot; font-size:12pt&quot;&gt;Pack vertex colors to one float.&lt;/span&gt;
 		&lt;/p&gt;
 		&lt;p style=&quot;line-height: 50%&quot;&gt;
 			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Show Log: &lt;/span&gt;
-			&lt;span style=&quot; font-size:12pt&quot;&gt;Show progress information&lt;/span&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;Show progress information.&lt;/span&gt;
 		&lt;/p&gt;
 		&lt;p style=&quot;line-height: 30%&quot;&gt;
 			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Max Bones: &lt;/span&gt;
@@ -90,11 +87,11 @@
 			&lt;span style=&quot; font-size:12pt&quot;&gt;Set the type of the output file to.&lt;/span&gt;
 		&lt;/p&gt;
 		&lt;p style=&quot;line-height: 50%&quot;&gt;
-			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Filename: &lt;/span&gt;
-			&lt;span style=&quot; font-size:12pt&quot;&gt;If empty the filename will be the same, but&lt;/span&gt;
+			&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Save: &lt;/span&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;If you want to load saved options on startup put the&lt;/span&gt;
 		&lt;/p&gt;
 		&lt;p style=&quot;line-height: 30%&quot;&gt;
-			&lt;span style=&quot; font-size:12pt&quot;&gt;different extension.&lt;/span&gt;
+			&lt;span style=&quot; font-size:12pt&quot;&gt;prop.fbxgui file in the program folder.&lt;/span&gt;
 		&lt;/p&gt;
 	&lt;/body&gt;
 &lt;/html&gt;</string>

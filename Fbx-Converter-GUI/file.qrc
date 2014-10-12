@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>dance.html</file>
+    </qresource>
+</RCC>
