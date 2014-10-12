@@ -15,7 +15,7 @@ In progress:
   
 Download section:
 
-    Windows -> http://goo.gl/iC0aFz -> broken
+    Windows -> http://goo.gl/KjpWLi
     Linux   -> http://goo.gl/S1Rn43 (Tested on Ubuntu) -> broken
 
 Contributors
