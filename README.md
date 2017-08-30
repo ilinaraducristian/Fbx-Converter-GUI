@@ -1,10 +1,4 @@
 Fbx-Converter-GUI
 =================
 
-I've created a Qt/GUI for fbx-conv:
-https://github.com/libgdx/fbx-conv
-
-Contributors
-=============
-
-xeoshow - Tester
+## DEPRECATED USE [*this*](https://github.com/ASneakyFox/libgdx-fbxconv-gui) INSTEAD
